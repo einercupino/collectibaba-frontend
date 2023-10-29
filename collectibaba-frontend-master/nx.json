@@ -1,0 +1,18 @@
+{
+    "implicitDependencies": { "package.json": { "dependencies": "*", "devDependencies": "*" }, ".eslintrc.json": "*" },
+    "affected": { "defaultBase": "master" },
+    "npmScope": "collectibaba",
+    "tasksRunnerOptions": {
+        "default": { "runner": "@nrwl/workspace/tasks-runners/default", "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] } }
+    },
+    "projects": {
+        "ngshop": { "tags": [] },
+        "ngshop-e2e": { "tags": [], "implicitDependencies": ["ngshop"] },
+        "admin": { "tags": [] },
+        "admin-e2e": { "tags": [], "implicitDependencies": ["admin"] },
+        "ui": { "tags": [] },
+        "products": { "tags": [] },
+        "users": { "tags": [] },
+        "orders": { "tags": [] }
+    }
+}
