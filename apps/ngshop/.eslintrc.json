@@ -14,14 +14,16 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "collectibaba",
+            "prefix": "ngshop",
             "style": "camelCase"
           }
         ],
         "@angular-eslint/component-selector": [
           "error",
-          { "type": "element", "prefix": "collectibaba", "style": "kebab-case" }
-        ]
+          { "type": "element", "prefix": "ngshop", "style": "kebab-case" }
+        ],
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": "off"
       }
     },
     {
