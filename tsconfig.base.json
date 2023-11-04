@@ -18,7 +18,8 @@
             "@collectibaba/ui": ["libs/ui/src/index.ts"],
             "@collectibaba/products": ["libs/products/src/index.ts"],
             "@collectibaba/users": ["libs/users/src/index.ts"],
-            "@collectibaba/orders": ["libs/orders/src/index.ts"]
+            "@collectibaba/orders": ["libs/orders/src/index.ts"],
+            "@env/*" : ["environments/*"]
         }
     },
     "exclude": ["node_modules", "tmp"]
