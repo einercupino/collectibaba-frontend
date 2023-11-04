@@ -141,7 +141,9 @@ export class ProductsFormComponent implements OnInit {
     }
     
   }
-  OnCancel(){}
+  OnCancel(){
+    this.location.back();
+  }
   
   onImageUplopad(event){
     const file = event.target.files[0];
